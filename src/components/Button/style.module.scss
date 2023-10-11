@@ -1,0 +1,15 @@
+.button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.auth-submit {
+    background-color: rgba(240, 240, 240, .8);
+    color: #000;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40px;
+}
