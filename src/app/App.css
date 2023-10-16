@@ -1,0 +1,16 @@
+#root {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-page {
+    width: 100%;
+    flex: 1;
+    display: flex;
+}
+
+.active {
+    fill: #083d73;
+  }

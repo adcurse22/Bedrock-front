@@ -1,0 +1,26 @@
+.side_holder {
+    width: 20%;
+    max-width: 35%;
+    border-right: 1px solid rgba(200, 200, 200, .8);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    .header {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .side_resizer {
+        position: absolute;
+        width: 5px;
+        height: 100%;
+        right: -2px;
+        cursor: col-resize;
+        z-index: 10;
+        transition: all .2s ease-out;
+    }
+    .side_resizer_moving {
+        background-color: aqua;
+        width: 3px;
+    }
+}

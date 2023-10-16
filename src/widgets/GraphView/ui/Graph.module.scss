@@ -1,0 +1,14 @@
+.graph_holder {
+  flex: 1;
+  display: flex;
+  circle {
+    transition: fill .1s linear;
+  }
+  circle:hover {
+    // fill: #6699cc;
+    opacity: .6;
+  }
+  .active {
+    fill: #083d73;
+  }
+}

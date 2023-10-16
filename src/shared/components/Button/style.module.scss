@@ -1,0 +1,73 @@
+.button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.auth-submit {
+    background-color: rgba(240, 240, 240, .8);
+    color: #000;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40px;
+}
+
+.sidebar-accordion {
+    background: none;
+    padding: 5px 15px;
+    outline: none;
+    font-weight: 200;
+    text-align: start;
+    position: relative;
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+    span {
+        display: flex;
+        align-items: center;
+        transition: all .1s ease-out;
+    }
+}
+.sidebar-accordion-active {
+    background: none;
+    padding: 5px 15px;
+    outline: none;
+    font-weight: 200;
+    text-align: start;
+    position: relative;
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+    span {
+        display: flex;
+        align-items: center;
+        transition: all .1s ease-out;
+    }
+}
+
+.sidebar-folder {
+    width: 100%;
+    color: #fff;
+    padding: 5px 20px;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    text-align: start;
+    background: none;
+}
+.sidebar-folder:hover {
+    background-color: rgba(80, 80, 80, .5);
+}
+
+.sidebar-create {
+    max-width: 40px;
+    padding: 0;
+    background: none;
+}
+
+.sidebar-create:hover {
+    background-color: rgba(80, 80, 80, .5);
+}
